@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.nav{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    padding: 50px;
+}
+#nameInput{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 5px 5px #ccc;
+}
+#numberInput{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 5px 5px #ccc;
+}
+button{
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 5px 5px #ccc;
+}
+.users{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 70px;
+}
+.programs{
+    display: flex;
+    
+    gap: 10px;
+    position: absolute;
+    right: 100px;
+    top: 210px;
+}
